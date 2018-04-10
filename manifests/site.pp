@@ -4,4 +4,9 @@ node default {
     content => 'This is a README',
     owner   => 'root',
   }
+  
+  package {'htop':
+    name => htop,
+    ensure => installed,
+  }
 }
