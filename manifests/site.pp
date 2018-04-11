@@ -5,8 +5,4 @@ node default {
     owner   => 'root',
   }
   
-  package {'htop':
-    name => htop,
-    ensure => installed,
-  }
 }
